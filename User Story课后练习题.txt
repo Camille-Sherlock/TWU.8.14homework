@@ -1,0 +1,42 @@
+User Story
+课后练习题
+________________
+简答题
+1. 用自己的话描述什么是用户故事。（15分）
+   用户故事是以用户的需求为基础，确保项目团队能真实的知道用户的确切需求而存在的。用户故事就是记录着用户的确切需求的载体。同时它也是交付团队内部人员对项目实现时的沟通的载体与呈现。同时也是交付团队确认需求是否完成以及用户确认需求完成的正确性，而且也可以根据需求的完成情况来决定交付时间。用户故事总的来说对各方都是一种可视化自己任务是否完成
+以及可以对项目整体完成度对一个考量。
+
+
+
+2. 用户故事的3Cs是什么？（10分）
+  Card：用户具体需求的载体。
+  Conversation：项目人员在对用户需求实现过程中相互交流的结论。
+  Confirmation：确认用户需求的完成以及用户确定何时可以交付。
+
+
+3. 一个用户故事一般包含哪些内容？并简述每一部分内容。（20分）
+  一般包含概览和详情。一般概览包括用户故事标题和编号。详情部分包括需求描述，验收标准和附件。其中需求描述是对整个故事的概述（一般包括用户角色，需要完成的需求以及需求的业务价值）；验收标准一般是需求细节（有Happy Path， Sad Path 以及 Alternate Path）以及如何验收该需求；附件，里面是一些数据格式，数据样例或者实现出的界面等。
+
+
+
+4. 什么是Acceptance Criteria？（15分）
+   验收标准就是定义了需求细节以及如何让验收该需求，比如在一个需求中有哪些详细信息；一般以Given-When-Then的形式存在。其中Given是描述需求发生的场景；When则是描述这些需求场景什么时候出现；Then就是需求场景发生后应该有什么表现。一般会有多个场景存在，即Happy Path， Sad Path 和Alternate Path。 
+
+情景题
+根据以下需求，写出Acceptance Criteria。（40分）
+As a ThoughtWorker
+I want to order coffee using coins
+So that I can stay awake during sessions
+
+Acceptance Criteria：
+AC1:
+Given 我是一名 ThoughtWorker
+When  我用钱点一杯咖啡
+Then  我点到了咖啡
+And   收到咖啡
+AC2:
+Given 我是一名 ThoughtWorker
+When  我用钱点一杯咖啡
+Then  我没有成功点到咖啡
+And   服务员跟我说没有咖啡了
+
